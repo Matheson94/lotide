@@ -29,7 +29,7 @@ const letterPositions = function(string) {
       if (results[string.charAt(i)]) {
         results[string.charAt(i)].push(i);
       } else {
-        //results[string.charAt(i)] = [i];
+        results[string.charAt(i)] = [i];
       }
     }
   }
