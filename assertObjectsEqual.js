@@ -4,12 +4,8 @@ const eqObjects = function (object1, object2) {
   } else {
     for (let i in object1) {
       if ((Array.isArray(object1[i]) && Array.isArray(object2[i]))) {
-        if (eqArrays(object1[i], object2[i]) === false) {
+        if (eqArrays(object1[i], object2[i]) === false || object[i] !== object2[i]) {
           return false
-        }
-      } else {
-        if (object1[i] !== object2[i]) {
-          return false;
         }
       }
     }

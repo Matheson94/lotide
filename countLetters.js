@@ -19,7 +19,7 @@ const countLetters = function(string) {
         answer[char] = 1;
       }
     }
-  console.log(answer);
+  
 }
 }
 countLetters("LHL");
