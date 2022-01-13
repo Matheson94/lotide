@@ -42,6 +42,3 @@ const results1 = map(words, word => word[0]);
 console.log(results1);
 
 
-assertEqualArrays(results1, ["g", "c", "t", "m", "t"]); // true
-assertEqualArrays(results1, ["g", "c", "t", "m", "T"]); // false
-assertEqualArrays(results1, ["c", "g", "t", "m", "t"]); // false
