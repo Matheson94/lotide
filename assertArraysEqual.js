@@ -13,7 +13,7 @@ function eqArrays(arr1, arr2) {
 }
 
 
-const assertEqualArrays = (arr1, arr2) => {
+const assertArraysEqual = (arr1, arr2) => {
   if (eqArrays(arr1, arr2)) { 
     console.log("Equal");
   } else {
