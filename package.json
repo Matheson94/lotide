@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@mattchiz/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "A clone of Lodash made while in the LHL Bootcamp for learning purposes",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Matheson94/lotide.git"
   },
-  "author": "",
+  "author": "Matt Chisholm",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Matheson94/lotide/issues"
