@@ -1,5 +1,6 @@
 const findKey = function (obj, callback) {
   arr = Object.keys(obj);
+  console.log(arr);
   for (const key of arr) {
     if (callback(obj[key])) {
       console.log(key);
